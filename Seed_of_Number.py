@@ -16,7 +16,7 @@ def product_of_num(num: int) -> int:
 
 
 # ---------- main ----------
-user_num = int(input("Enter number: "))
+user_num: int = int(input("Enter number: "))
 
 # for loop to loop thru all the numbers from 1 - user_num +1
 # only test the num that has no remainder
